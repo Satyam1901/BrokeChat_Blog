@@ -44,8 +44,6 @@ async getCurrentUser() {
         console.log("Appwrite serive :: logout :: error", error);
         throw error;
     }
-
-    return null;
 }
 
 async logout() {
